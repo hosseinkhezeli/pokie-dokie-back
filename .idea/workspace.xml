@@ -4,23 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f59644fa-2c6d-4c79-a4fe-962b2ca9b8ed" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pokie/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pokie/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pokie-dokie-back.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pokie-dokie-back.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/v1/api.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/core/config.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/core/security.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/core/websocket.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/db/init_db.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/db/session.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/base.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/schemas/schemas.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+    <list default="true" id="f59644fa-2c6d-4c79-a4fe-962b2ca9b8ed" name="Changes" comment="Re Initialized the project">
+      <change afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/session_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/user_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/profile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/sessions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/services/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/services/auth_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/services/session_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/services/user_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokie/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokie/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokie/apps/accounts/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokie/apps/accounts/api/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokie/apps/accounts/api/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokie/apps/accounts/api/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokie/apps/accounts/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokie/apps/accounts/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokie/apps/accounts/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokie/config/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokie/config/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokie/config/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokie/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokie/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokie/wsgi.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,17 +62,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Hossein Khezeli\Desktop\Projects\Personal\pokie-dokie-back\app" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -72,6 +93,19 @@
       <option name="presentableId" value="Default" />
       <updated>1747650075720</updated>
     </task>
+    <task id="LOCAL-00001" summary="Re Initialized the project">
+      <option name="closed" value="true" />
+      <created>1747656717166</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1747656717166</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Re Initialized the project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Re Initialized the project" />
   </component>
 </project>
