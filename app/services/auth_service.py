@@ -45,8 +45,8 @@ def login_user(data):
 
     token = jwt.encode({
         'user_id': user.id,
-        'exp': datetime.datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(hours=24)
+        'exp': datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(hours=24)
     }, current_app.config['SECRET_KEY'], algorithm='HS256')
 
-    return {'message': f'User {user.fullname} logged in successfully',
+    return {'message': f'خوش آمدی {user.fullname}',
             'data': {'token': token, 'fullname': user.fullname, 'email': user.email}}, 200

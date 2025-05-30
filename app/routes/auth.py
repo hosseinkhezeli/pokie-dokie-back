@@ -16,7 +16,7 @@ def signup():
           schema:
             type: object
             properties:
-              username:
+              fullname:
                 type: string
               email:
                 type: string
